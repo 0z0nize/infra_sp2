@@ -41,10 +41,6 @@
 
 `docker-compose exec web python manage.py csv_to_db`
 
-Если требуется предварительная отчистка базы данных:
-
-`docker-compose exec web python manage.py csv_to_db -с`
-
 Создать суперюзера:
 
 `docker-compose exec web python manage.py createsuperuser`
