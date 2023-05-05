@@ -19,15 +19,13 @@
 
 ### Шаблон для заполнения env:
 
-```
-    TOKEN = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
-    DB_ENGINE=django.db.backends.postgresql
-    DB_NAME=postgres
-    POSTGRES_USER=postgres
-    POSTGRES_PASSWORD=postgres
-    DB_HOST=db
-    DB_PORT=5432
-```
+```TOKEN = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
+   DB_ENGINE=django.db.backends.postgresql
+   DB_NAME=postgres
+   POSTGRES_USER=postgres
+   POSTGRES_PASSWORD=postgres
+   DB_HOST=db
+   DB_PORT=5432```
 
 ### Как запустить проект:
 
@@ -51,7 +49,7 @@
 
 `docker-compose down -v`
 
-### После запуска проекта по адресу 
+### После запуска проекта по адресу: 
 
 `http://localhost/redoc/`
 
