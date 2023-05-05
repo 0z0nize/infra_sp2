@@ -34,6 +34,8 @@ DB_PORT=5432
 
 `git clone git@github.com:0z0nize/infra_sp2.git`
 
+`cd infra_sp2/`
+
 Сборка и запкуск контейнера:
 
 `docker-compose up -d`
