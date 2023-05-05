@@ -24,17 +24,24 @@
 
 Клонировать репозиторий и перейти в него в командной строке:
 
-`git clone git@github.com:0z0nize/infra_sp2.git`
+```
+git clone git@github.com:0z0nize/infra_sp2.git
+```
 
-`cd infra_sp2/infra`
+```
+cd infra_sp2/infra
+```
 
 Cоздать файл .env:
 
-`touch .env`
+```touch .env
+```
 
 Заполнить .env по шаблону:
 
-`nano .env`
+```
+nano .env
+```
 
 ```
 DB_ENGINE=django.db.backends.postgresql
@@ -47,23 +54,33 @@ DB_PORT=5432
 
 Сборка и запкуск контейнера:
 
-`docker-compose up -d`
+```
+docker-compose up -d
+```
 
 Заполнить базу данных:
 
-`docker-compose exec web python manage.py csv_to_db`
+```
+docker-compose exec web python manage.py csv_to_db
+```
 
 Создать суперюзера:
 
-`docker-compose exec web python manage.py createsuperuser`
+```
+docker-compose exec web python manage.py createsuperuser
+```
 
 Остановка контейнера после завершения работы с проектом:
 
-`docker-compose down -v`
+```
+docker-compose down -v
+```
 
 ### После запуска проекта по адресу
 
-`http://localhost/redoc/`
+```
+http://localhost/redoc/
+```
 
 будет доступна документация для api_yamdb. В документации описано, как будет работать API. Документация представлена в формате Redoc.
 
