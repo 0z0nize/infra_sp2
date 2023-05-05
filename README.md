@@ -17,16 +17,6 @@
 ![Symple JWT verson](https://img.shields.io/badge/Simple%20JWT-%202.1.0-green?logo=django)
 ![Django filter](https://img.shields.io/badge/Django%20filter-%2022.1-green?logo=django)
 
-### Шаблон для заполнения env:
-
-``` 
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=postgres
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-DB_HOST=db
-DB_PORT=5432 
-```
 
 ### Как запустить проект:
 
@@ -34,7 +24,22 @@ DB_PORT=5432
 
 `git clone git@github.com:0z0nize/infra_sp2.git`
 
-`cd infra_sp2/`
+`cd infra_sp2/infra`
+
+Cоздать файл .env:
+
+`touch .env`
+
+Заполнить .env по шаблону:
+
+```
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+DB_HOST=db
+DB_PORT=5432 
+```
 
 Сборка и запкуск контейнера:
 
