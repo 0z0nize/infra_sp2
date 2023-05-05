@@ -1,4 +1,4 @@
-![233348780-313ad8af-8fa5-47e0-8f1c-7f0aea8c24a11](https://user-images.githubusercontent.com/112638163/234628575-ccad6d24-c159-424e-933d-4e148c521f46.png)
+![docker_api_yamdb](https://user-images.githubusercontent.com/112638163/236439694-5e58b747-6413-42b4-86b9-760e26417b0a.png)
 
 ### Описание
 Проект YaMDb собирает отзывы пользователей на произведения. Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
@@ -19,13 +19,13 @@
 
 ### Шаблон для заполнения env:
 
-`TOKEN = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'`
+```TOKEN = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'`
 `DB_ENGINE=django.db.backends.postgresql`
 `DB_NAME=postgres`
 `POSTGRES_USER=postgres`
 `POSTGRES_PASSWORD=postgres`
 `DB_HOST=db`
-`DB_PORT=5432`
+`DB_PORT=5432```
 
 ### Как запустить проект:
 
