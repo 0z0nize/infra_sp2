@@ -55,7 +55,7 @@ DB_PORT=5432
 
 `docker-compose exec web python manage.py createsuperuser`
 
-Остановка контейнера:
+Остановка контейнера после завершения работы с проектом:
 
 `docker-compose down -v`
 
