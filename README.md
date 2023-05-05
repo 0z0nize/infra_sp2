@@ -32,6 +32,8 @@ Cоздать файл .env:
 
 Заполнить .env по шаблону:
 
+`nano .env`
+
 ```
 DB_ENGINE=django.db.backends.postgresql
 DB_NAME=postgres
