@@ -87,21 +87,21 @@ http://localhost/redoc/
 
 ### Примеры некоторых запросов API
 * Доступ к списку всех категорий:
-GET /api/v1/categories/
+GET `/api/v1/categories/`
 * Доступ к списку всех жанров:
-GET /api/v1/genres/
+GET `/api/v1/genres/`
 * Получение списка всех произведений:
-GET /api/v1/titles/
+GET `/api/v1/titles/`
 * Получение списка всех отзывов:
-GET /api/v1/titles/{title_id}/reviews/
+GET `/api/v1/titles/{title_id}/reviews/`
 * Получение списка всех комментариев к отзыву:
-GET /api/v1/titles/{title_id}/reviews/{review_id}/comments/
+GET `/api/v1/titles/{title_id}/reviews/{review_id}/comments/`
 * Получение списка всех пользователей:
-GET /api/v1/users/
+GET `/api/v1/users/`
 * Регистрация нового пользователя:
-POST /api/v1/auth/signup/
+POST `/api/v1/auth/signup/`
 * Получение JWT-токена:
-POST /api/v1/auth/token/
+POST `/api/v1/auth/token/`
 
 
 
