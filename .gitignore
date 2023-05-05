@@ -149,3 +149,5 @@ dmypy.json
 static/
 posts/static/
 
+# дамп базы данных
+infra/fixtures.json
