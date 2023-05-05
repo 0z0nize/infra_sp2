@@ -34,7 +34,8 @@ cd infra_sp2/infra
 
 Cоздать файл .env:
 
-```touch .env
+```
+touch .env
 ```
 
 Заполнить .env по шаблону:
