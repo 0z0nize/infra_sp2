@@ -18,6 +18,7 @@
 ![djangorestframework version](https://img.shields.io/badge/djangorestframework-3.12.4-green?logo=django)
 ![Symple JWT verson](https://img.shields.io/badge/Simple%20JWT-%202.1.0-green?logo=JWT)
 ![Django filter](https://img.shields.io/badge/Django%20filter-%2022.1-green?logo=django)
+![Django filter](https://img.shields.io/badge/Django%20filter-%2022.1-green?logopostgresql)
 
 
 ### Как запустить проект
