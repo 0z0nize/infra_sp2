@@ -13,8 +13,9 @@
 
 ### Технологии
 ![python version](https://img.shields.io/badge/Python-3.9.10-green?logo=python)
-![Postdresql version](https://img.shields.io/badge/Potgresql-13.0-green?logo=postgresql)
 ![django version](https://img.shields.io/badge/Django-3.2-green?logo=django)
+![djangorestframework version](https://img.shields.io/badge/djangorestframework-3.12.4-green?logo=django)
+![Postdresql version](https://img.shields.io/badge/Potgresql-13.0-green?logo=postgresql)
 ![Docker version](https://img.shields.io/badge/Docker-23.0.5-green?logo=docker)
 ![djangorestframework version](https://img.shields.io/badge/djangorestframework-3.12.4-green?logo=django)
 ![Symple JWT verson](https://img.shields.io/badge/Simple%20JWT-%202.1.0-green?logo=JWT)
